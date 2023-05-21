@@ -55,3 +55,7 @@ vector<int> solution(int numer1, int denom1, int numer2, int denom2) {
     
 //     return answer;
 // }
+
+// 내가 잘못한 부분
+// 1. gcd를 초기화 안하는 멍청한 실수를 저지름
+// 2. 시간제약이 없어서 이런 방식을 선택했지만 시간 제약이 있을경우 for문을 i++가 아니라 i--로 바꾸면 훨씬 시간이 절약되면서 최대공약수를 구할 수 있을 것 같음
